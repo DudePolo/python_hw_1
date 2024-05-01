@@ -11,8 +11,8 @@ pack('ham sandwich', 'chocolate milk', 'apple')
 def eat_lunch(food_list):
     if food_list:
         print('First I eat', food_list[0])
-        for i in food_list[1:]:
-            print('Next I eat', i)
+        for food in food_list[1:]:
+            print('Next I eat', food)
     else:
         print('My lunchbox is empty!')
 
